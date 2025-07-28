@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('../fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('../fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -16,4 +25,12 @@ input, button, textarea, select {
 
 p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
+}
+
+.logo span {
+    font-family: 'norsebold';
+}
+
+aside {
+    background-image: url(../images/halie-west-25xggax4bSA-unsplash.jpg);
 }

@@ -46,7 +46,7 @@ aside {
     background-image: url(../images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     height: 100%;
-    width: 50%;
+    width: 70%;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -94,10 +94,85 @@ aside .bg-img-credit a:link {
 .description {
     width: 500px;
     margin:  100px 0 40px 40px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .description p {
     margin-bottom: 20px;
 }
 
+/* Form section layout [form]*/
+form .user-info {
+    border: none;
+    background-color: #ffffff;
+    padding: 50px 140px 10px 40px;
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    box-shadow: 0px 7px 7px #e6e6e6;
+}
+
+form .user-info legend {
+    position:absolute;
+    top:10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+form .user-info > div {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    width:200px;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+label {
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+
+input {
+    font-size: 10px;
+    padding: 4px;
+    border: solid 1px #E5E7EB;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+    border: solid 1px #3945f1;
+    box-shadow: 3px 4px 2px #e6e6e6;
+}
+
+input[type="password"]:invalid {
+    border: solid 1px #b90e0e;
+}
+
+.form-submit {
+    margin: 25px 0 0 40px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.form-submit button {
+    border: none;
+    margin-bottom: 25px;
+    padding: 8px 35px 8px 35px;
+    background-color: #596D48;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.form-submit  a {
+    text-decoration: none;
+    color: #596D48;
+}

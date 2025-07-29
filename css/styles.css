@@ -83,7 +83,21 @@ aside .bg-img-credit a:link {
     color: #ffffff;
 }
 
+/* Form section layout [description]*/
+.form-section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f6f6;
+}
 
+.description {
+    width: 500px;
+    margin:  100px 0 40px 40px;
+    font-weight: bold;
+}
 
-
+.description p {
+    margin-bottom: 20px;
+}
 

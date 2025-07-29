@@ -8,6 +8,12 @@
 
 }
 
+/* Defaulting to the system font of a particular operating system */
+:root {
+    --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -17,6 +23,7 @@
 }
 
 body {
+    font-family: var(--system-ui);
     line-height: 1.5;
 }
 

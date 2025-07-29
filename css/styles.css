@@ -1,3 +1,4 @@
+/* General reset */
 @font-face {
     font-family: 'norsebold';
     src: url('../fonts/norse-bold-webfont.woff2') format('woff2'),
@@ -27,10 +28,55 @@ p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
 }
 
-.logo span {
-    font-family: 'norsebold';
+/* Main layout */
+main {
+    height: 100vh;
+    display: flex;
 }
 
+/* Aside layout  */
 aside {
     background-image: url(../images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
+
+aside .logo {
+    width: 100%;
+    height: 100px;
+    background-color: #0006 ;
+    margin-top: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+    height: 80px;
+}
+
+.logo span {
+    font-family: 'norsebold';
+    font-size: 60px;
+}
+
+aside .bg-img-credit {
+    margin-bottom: 7px;
+    font-size: 10px;
+}
+
+aside .bg-img-credit a:link {
+    color: #ffffff;
+}
+
+
+
+
+

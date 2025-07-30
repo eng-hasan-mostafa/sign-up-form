@@ -37,15 +37,15 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* Main layout */
 main {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
+    align-items: stretch;
 }
 
 /* Aside layout  */
 aside {
     background-image: url(../images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
-    height: 100%;
     width: 70%;
     color: #ffffff;
     display: flex;
@@ -85,7 +85,6 @@ aside .bg-img-credit a:link {
 
 /* Form section layout [description]*/
 .form-section {
-    height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #f8f6f6;
